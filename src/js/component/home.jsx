@@ -1,7 +1,6 @@
-import useState from "react";
-import React from "react";
+import React, { useState } from "react";
 
-function Home() {
+const Home = () => {
 	const [color, setColor] = useState("");
 
 	return (
@@ -26,6 +25,6 @@ function Home() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Home;
