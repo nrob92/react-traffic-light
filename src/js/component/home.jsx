@@ -1,7 +1,7 @@
 import useState from "react";
 import React from "react";
 
-const Home = () => {
+function Home() {
 	const [color, setColor] = useState("");
 
 	return (
@@ -26,6 +26,6 @@ const Home = () => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Home;
